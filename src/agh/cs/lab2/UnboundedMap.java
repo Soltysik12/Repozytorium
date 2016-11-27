@@ -76,5 +76,7 @@ public class UnboundedMap extends AbstractWorldMap implements IWorldMap {
         Position bottomLeft = new Position(xmin, ymin);
         Position upperRight = new Position(xmax, ymax);
         return mapVisualizer.dump(this,bottomLeft,upperRight);
+
+
     }
 }
